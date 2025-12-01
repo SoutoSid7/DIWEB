@@ -44,10 +44,6 @@ body {
     transition: 0.3s;
 }
 
-.header ul li a:hover {
-    text-decoration: underline;
-}
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -75,7 +71,7 @@ p, li {
     margin: 20px 0;
 }
 
-.fila1, .fila2 {
+.fila{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -83,23 +79,21 @@ p, li {
     gap: 20px;
 }
 
-.fila1 div, .fila2 div {
+.fila div {
     background: #fff;
     padding: 15px;
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
-.fila1 div b, 
-.fila2 div b {
+.fila div b{
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
     color: #c62828;
 }
 
-.fila1 div img,
-.fila2 div img {
+.fila div img {
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -124,7 +118,7 @@ footer {
 }
 
 @media (min-width: 901px) {
-    .fila1 div, .fila2 div {
+    .fila div{
         flex: 0 0 calc(33.333% - 20px);
     }
 }
@@ -141,8 +135,7 @@ footer {
         justify-content: center;
     }
 
-    .fila1 div,
-    .fila2 div{
+    .fila div{
         flex: 0 0 calc(50% - 20px);
     }
 
@@ -150,8 +143,7 @@ footer {
 
 @media (max-width: 600px) {
 
-    .fila1 div, 
-    .fila2 div {
+    .fila div {
         min-width: 100%;
     }
 
