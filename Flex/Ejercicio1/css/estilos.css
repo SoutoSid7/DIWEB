@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    width: 90%;
+    color: #666666; /* Color */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em; /* Separa el header del siguiente contenido */
+    padding: 1em; /* Añade espacio interno */
+}
+
+h1, h4, p {
+    margin: 0px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content_wrapper {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap; /* Si no caben en una sola fila se van a la siguiente auto */
+    justify-content: space-between; /* Elementos de una fila con espacios iguales */
+}
+
+.content_wrapper nav {
+    padding: 20px;
+    width: 10%; /* Ancho fijo para el nav */
+}
+
+.content_wrapper main {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 54%; /* Estable area principal como la mas grande */
+    height: 400px; /* Altura permite alineacion con imagen y articulo lateral */
+}
+
+/* Estructura la imagen */
+.content_wrapper main img {
+    border-radius: 1em;
+    height: 70%;
+    width: 80%;
+}
+
+.content_wrapper article {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+
+    width: 32%; /* Para que entren 3 articulos por fila */
+}
+
+.articles {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribuye los 3 articulos en espacios iguales */
+    margin-left: 10%; /* Centra los articulos porque nav ocupa 10% */
+}
+
+/* Ajusta imagenes */
+.articles article img,
+.content_wrapper article img {
+    border-radius: 1em;
+    height: 60%;
+    width: 100%;
+}
+
+.articles article {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+} 
+
+/* Mismo tamaño por defecto */
+footer img {
+    width: 50px;
+}
