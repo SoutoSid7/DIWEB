@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%); /* 4 columnas ocupan 25%*/
+    grid-template-rows: [uno] 100px [dos] 100px [tres] 100px [cuatro]; /* 3 filas*/
+    margin: 20px auto;
+    width: 60%;
+}
+
+#azul {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: uno;
+    grid-row-end: cuatro;
+}
+
+#rojo {
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: uno;
+    grid-row-end: uno;
+}
+
+#amarillo {
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: dos;
+    grid-row-end: span 2;
+}

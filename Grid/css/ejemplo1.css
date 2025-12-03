@@ -11,6 +11,8 @@
     grid-template-rows: repeat(3, 100px); /* 3 filas que son de 100px */
     justify-items: stretch; /* Segun donde quieras poner el contenido*/
     align-items: stretch; /* El contenido estara... */
+    /* justify-content: center; alinear */
+    /* align-content: center; alinear vertical */
     padding: 1em;
     width: 80%;
 }
