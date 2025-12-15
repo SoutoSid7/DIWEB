@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:#ffa64d;
+    color:#0033cc;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:20px;
+    background:#ffa64d;
+}
+
+.card{
+    border:3px solid #0033cc;
+    padding:15px;
+    background:white;
+}
+
+.card img{
+    width:100%;
+    max-width:300px;
+    display:block;
+    margin:auto;
+}
+
+/* móviles hasta 576px */
+@media(min-width:576px){
+    header{ background:#0047ab; color:#00cc44; }
+    .container{
+    background:#0047ab;
+    grid-template-columns:1fr 1fr;
+    }
+    .card{ border-color:#00cc44; }
+}
+
+/* tablets hasta 768px */
+@media(min-width:768px){
+    header{ background:#009933; color:#cc0000; }
+    .container{
+        background:#009933;
+        grid-template-columns:1fr 1fr;
+    }
+    .card{ border-color:#cc0000; }
+}
+
+/* portátiles 992px */
+@media(min-width:992px){
+    header{ background:#66cc66; color:#ff3300; }
+    .container{
+        background:#66cc66;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .card{ border-color:#ff3300; }
+}
+
+/* grandes dispositivos 1200px */
+@media(min-width:1200px){
+    header{ background:#3366cc; color:#ffcc00; }    
+}
