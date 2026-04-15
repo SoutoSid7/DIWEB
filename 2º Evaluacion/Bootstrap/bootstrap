@@ -1,0 +1,27 @@
+BRAKEPOINTS
+    xs: 0 - 575px,
+    sm: 576px - 767px,
+    md: 768px - 991px,
+    lg: 992px - 1199px,
+    xl: 1200px - 1399px,
+    xxl: 1400px
+
+🎨 Colores de Bootstrap
+    primary → 🔵 Azul
+    secondary → ⚫ Gris
+    success → 🟢 Verde
+    danger → 🔴 Rojo
+    warning → 🟡 Amarillo
+    info → 🔷 Celeste / Azul claro
+    light → ⚪ Blanco / Gris muy claro
+    dark → ⚫ Negro / Gris oscuro
+🎯 Escala de grises
+    gray-100 → ⚪ Blanco muy claro
+    gray-200 → ⚪ Gris muy claro
+    gray-300 → ⚪ Gris claro
+    gray-400 → ⚪ Gris suave
+    gray-500 → ⚫ Gris medio
+    gray-600 → ⚫ Gris oscuro
+    gray-700 → ⚫ Gris más oscuro
+    gray-800 → ⚫ Gris muy oscuro
+    gray-900 → ⚫ Casi negro
