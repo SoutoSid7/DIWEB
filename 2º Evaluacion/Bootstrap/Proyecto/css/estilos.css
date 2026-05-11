@@ -6,3 +6,16 @@
     height: 450px; 
     object-fit: cover;
 } 
+
+.btn-carousel {
+    background-color: #f4b400;
+    color: black;
+    border: none;
+}
+
+.btn-carousel:hover {
+    background-color: #f4b400;
+    color: black;
+    border: none;
+}
+
