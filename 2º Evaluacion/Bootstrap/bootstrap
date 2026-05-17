@@ -25,3 +25,5 @@ BRAKEPOINTS
     gray-700 → ⚫ Gris más oscuro
     gray-800 → ⚫ Gris muy oscuro
     gray-900 → ⚫ Casi negro
+
+    fs = font size
